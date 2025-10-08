@@ -1,6 +1,8 @@
 # PacMan-Simulation
 This is an academic project for Object-Oriented C++ programming, simulating the classic Pac-Man game. Instead of ghosts, you play as Potter("M") racing against your rival Malphoi("L") to collect the pergamine("#").
 
+<img width="503" height="503" alt="image" src="https://github.com/user-attachments/assets/c7cb1f71-8b05-4297-9a54-ab902926b768" />
+
 **File Overview : 
 **
 engine.cpp This file builds the game board. It creates the maze from the maze.txt file, which is passed as a command-line argument by the user. It places the players and the pergamine (scroll) on the map and checks who wins.
@@ -22,4 +24,3 @@ g++ engine.cpp potter.cpp malphoi.cpp main.cpp -o main -lncurses
 ./main maze.txt
 You provide the maze.txt file as an argument, which contains the maze layout.
 
-<img width="503" height="503" alt="image" src="https://github.com/user-attachments/assets/c7cb1f71-8b05-4297-9a54-ab902926b768" />
